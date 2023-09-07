@@ -31,6 +31,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 33
 
+    namespace 'com.airship.flutter.FlutterAutopilot'
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
